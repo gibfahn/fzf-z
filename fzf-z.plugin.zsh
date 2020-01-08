@@ -33,10 +33,10 @@ should-accept-line() {
 }
 
 zle -N fzfz-file-widget
-bindkey -M viins -r '^G'
-bindkey -M vicmd -r '^G'
-bindkey -M emacs -r '^G'
+bindkey -M viins -r '^N'
+bindkey -M vicmd -r '^N'
+bindkey -M emacs -r '^N'
 
-bindkey -M viins '^G' fzfz-file-widget
-bindkey -M vicmd '^G' fzfz-file-widget
-bindkey -M emacs '^G' fzfz-file-widget
+bindkey -M viins '^N' fzfz-file-widget
+bindkey -M vicmd '^N' fzfz-file-widget
+bindkey -M emacs '^N' fzfz-file-widget
